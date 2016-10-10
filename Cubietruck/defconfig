@@ -1,3 +1,17 @@
+# date : mardi 16 août 2016, 19:45:06 (UTC+0200)
+# from : jeanmarc.lacroix@free.fr
+# for  : SBXG project
+
+
+# abstract : This is the minimal definition which  is VERY portable on
+# some others  Linux Kernel.  Please keep in  mind that this defconfig
+# must be the SMALLEST possible  (for size point of  view) in order to
+# create a bootable linux config with the minimal input/output feature
+# (Ethernet and  tty) and ipV4.  All  others  advanced feature such as
+# firewall, sound, scheduling...    are defined in  a separate  config
+# (look at in  the directory).  Thanks in  advance to let this minimal
+# file.
+
 CONFIG_NO_HZ=y
 CONFIG_HIGH_RES_TIMERS=y
 CONFIG_BLK_DEV_INITRD=y
